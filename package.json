@@ -1,0 +1,12 @@
+{
+  "name": "simple-clock",
+  "version": "1.0.0",
+  "description": "simple clock with docker",
+  "main": "static/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "1vangin",
+  "license": "ISC"
+}

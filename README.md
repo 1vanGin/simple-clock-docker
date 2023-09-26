@@ -50,8 +50,8 @@ docker compose up -d nginx
 ```
 docker compose run --rm --entrypoint "\
  certbot certonly --webroot -w /var/www/certbot \
- --email io.kazantcev@yandex.ru 
- -d 1.result-student.tw1.ru
+ --email <some_email> 
+ -d <url without "http://">
  --agree-tos
  --force-renewal" certbot
 ```

@@ -6,8 +6,8 @@
 4. Сборка докер файла
 ```
 sudo docker build -t simpleclockapp .
+// -t simpleclockapp - задаёт имя для image
 ```
--t simpleclockapp - задаёт имя для image
 5. Запуск докера
 ```
 sudo docker run -d simpleclockapp 
